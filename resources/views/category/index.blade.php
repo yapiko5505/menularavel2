@@ -53,7 +53,7 @@
                                 <form method="post" action="{{route('category.destroy', $category)}}" class="float-right">
                                     @csrf
                                     @method('delete')
-                                    <button type="button" class="btn btn-outline-primary" onClick="return confirm('削除しますか？');"><i class="far fa-edit"></i>削除</button> 
+                                    <button type="submit" class="btn btn-outline-primary" onClick="return confirm('削除しますか？');"><i class="far fa-edit"></i>削除</button> 
                                 </form> 
                         </td>
                     </tr>
